@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navigation_bar">
+        <li><a href="#">Home</a></li>
+        <li><a href="page2_form.html">Contact Us</a></li>
+        <li><a href="page3_website.html">Websites</a></li>
+        <li><a href="page4_gallery.html">gallery</a></li>
+    </nav>
+
+    <form action="page1_index.html" method="get">
+        <fieldset>
+
+            <div class="form_fields">
+                <label for="firstName">
+                    First Name: <input type="text" name="first_name" id="firstName">
+                </label>
+            </div>
+
+            <div class="form_fields">
+                <label for="lastName">
+                    Last Name: <input type="text" name="last_name" id="lastName">
+                </label>
+            </div>
+
+            <div class="form_fields">
+                <label for="email">
+                    Email: <input type="text" name="email_address" id="email">
+                </label>
+            </div>
+
+            <div class="form_fields">
+                <label for="comments">Comment</label>
+                <textarea name="comment" id="comments" cols="30" rows="10" placeholder="Please Leave Us A Message"></textarea>
+            </div>
+
+            <div class="form_fields">
+                <input type="checkbox" name="newsletter" id="newsletter">Sign up for newsletter
+            </div>
+
+            <div class="form_fields">
+                <input type="submit" value="Submit">
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
